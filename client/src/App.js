@@ -116,7 +116,7 @@ componentDidMount() {
             <div className="App">
               <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <h3> This app is using MobileNet model with tfjs-node to predict objects from an image</h3>
+                <p> Image classifier (cat vs. dog) with tfjs-node</p>
               </header>
             </div>
               <audio id="xyz" src={sound} preload="auto"></audio>
